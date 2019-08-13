@@ -1,0 +1,11 @@
+body {
+	display: none;
+	overflow: hidden;
+}
+
+.str0 {stroke:black;stroke-linecap:square}
+.str1 {stroke:black;stroke-width:2;stroke-linecap:square;fill:none;}
+.fil0 {fill:white}	
+.fil1 {fill:white}.fil1:hover {fill:red;}
+.fil3 {fill:black}
+

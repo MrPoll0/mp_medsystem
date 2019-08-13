@@ -1,0 +1,117 @@
+.monitor-bg {
+  background-color: #002720;
+  padding: 0px 170px 13px 38px;
+  position: relative;
+}
+.ecg {
+  width: 100%;
+  height: 100px;
+  background-image: url("../img/pulso.png");
+  background-size: 100px;
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.barrido {
+  width: 30px;
+  height: 100%;
+  background-color: #002720;
+  position: absolute;
+  margin-top: -50px;
+  animation: ecg-barrido 7.5s infinite;
+  animation-name: ecg-barrido;
+  animation-timing-function: linear;
+}
+.monitor {
+  font-family: "Arial Narrow";
+  font-weight: bold;
+  color: #10ef12;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 170px;
+}
+.monitor .hr {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 25px;
+}
+.monitor .heart {
+  position: absolute;
+  top: 55px;
+  left: 26.5px;
+  animation: latido 1s infinite;
+  animation-name: latido;
+  animation-timing-function: ease;
+}
+.monitor .pulsaciones {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 86px;
+}
+@-moz-keyframes ecg-barrido {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 77%;
+  }
+}
+@-webkit-keyframes ecg-barrido {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 77%;
+  }
+}
+@-o-keyframes ecg-barrido {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 77%;
+  }
+}
+@keyframes ecg-barrido {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 77%;
+  }
+}
+@-moz-keyframes latido {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.25, 1.25);
+  }
+}
+@-webkit-keyframes latido {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.25, 1.25);
+  }
+}
+@-o-keyframes latido {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.25, 1.25);
+  }
+}
+@keyframes latido {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.25, 1.25);
+  }
+}
