@@ -1,2 +1,4 @@
 # mp_medsystem
-mp_medsystem script for FiveM by MrPoll0
+Medical system script for FiveM.
+
+Probably outdated.
