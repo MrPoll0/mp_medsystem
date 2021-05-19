@@ -1,4 +1,4 @@
 # mp_medsystem
 Medical system script for FiveM.
 
-Probably outdated.
+[Probably outdated | Not in maintenance]
